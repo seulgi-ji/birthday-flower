@@ -1,3 +1,16 @@
+/* 웹글꼴 */
+@font-face { /* 설치개념 */
+    font-family: 'MaruBuri-R'; /* 설치명 */
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 400; /* 굵기 */
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri-B';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
 /* 모든 태그들에 대한 공통 초기값 세팅 */
 html,body,h1,h2,h3,h4,h5,h6,
 dl,dt,dd,ol,ul,li,p,blockquote,hr,div,video,address,
@@ -9,8 +22,8 @@ table,thead,tbody,tfoot,tr,td,th {
     line-height:1; letter-spacing:-0.02em; word-spacing:0;
     font-size:1em; font-weight:400; font-style:normal;
     color:#000;
-    font-family:'Noto Sans KR',sans-serif;
-}
+    font-family:'MaruBuri-R',sans-serif;
+}/* 사용 개념 */
 /* 개별 태그 초기값 */
 a {text-decoration:none;}
 ul,ol,li {list-style:none;}
